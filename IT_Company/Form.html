@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mdara IT | Home</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="./Css/Stylesheet.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1>
+						<img style="float:left;width:80px;height:120px" src="./pictures/Logo.jpg" alt="Logo" />
+					</h1>
+		<h1 style="font-Family:Serif; font-size: 50px">Mdara IT solutions</h1>
+</div>
+		<nav style="font-Family:Serif";>
+			<ul>
+				<li><a href="Escalation.html">Escalation</a></li>
+				<li><a href="Assest.html">Assest Register</a></li>
+				<li><a href="Form.html"> Form</a></li>
+				<li><a href="Trouble Shoot.html">Trouble Shoot</a></li>
+				<li><a href="Home.html">Home</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	<body>
+		<h1 style="background-color:#e6e6e6; color:black;font-Family:Serif; font-size:40px;">Log In Incidents Form</h1>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<aside id="sidebar">
+	<div class="surrond">
+ <h1 style="font-size: 35px; font-Family:Serif;"> Information</h1>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("Infomation Submitted");
+  });
+});
+</script>
+		<form action="" >
+				<label style="font-size: 20px">Date and time of the call:</label><br>
+				<input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br><br>
+				<label style="font-size: 20px">Name Surname of the caller:</label><br>
+				 <input size="150"  type="text"><br><br><br>
+				<label style="font-size: 20px">Caller department?</label><br>
+				<select id="department" name="department"><br>
+                <option value="Service Desk">Service Desk</option><br>
+                <option value="IT Support">IT Support</option><br>
+                <option value="IT Management">IT Management</option><br>
+            </select><br><br><br>
+				
+				<label style="font-size: 20px">Incident Category?:</label><br>
+			    <select id="type" name="type"><br>
+                <option value="Software">Software</option><br>
+                <option value="Hardware">Hardware</option><br>
+            </select><br><br><br>
+			    <label style="font-size: 20px">Incident Description?</label><br>
+			    <input type="text" size="150"><br><br><br>
+				<label style="font-size: 20px">Urgency?:</label><br>
+				<input type="radio" id="Very Urgent" name="Urgency" value="Very Urgent">
+  <label for="Very Urgent">Very Urgent</label><br>
+  <input type="radio" id="Average" name="Urgency" value="Average">
+  <label for="Average">Average</label><br>
+  <input type="radio" id="Not Urgent" name="Urgency" value="Not Urgent">
+  <label for="Not Urgent">Not Urgent</label><br><br><br>
+
+  <label style="font-size: 20px">Priority?:</label><br>
+  <input type="radio" id="High" name="Priority" value="High">
+  <label for="High">Very Urgent</label><br>
+  <input type="radio" id="Average" name="Priority" value="Average">
+  <label for="Average">Average</label><br>
+  <input type="radio" id="Low" name="Priority" value="Low">
+  <label for="Low">Low</label><br><br>
+
+
+				<input type="submit" name="submit">
+			</form>
+		</div>
+<section id="close">
+			 		 <div class="container">
+          <footer style="font-Family:Serif; color:white; font-size: 20px">
+			<p>Contact us at 011 584 3888 | Email us @</p> <p><a href="read more"> ithelp@techsupport.com</a></p>
+			
+	</div>
+	</section>
+</footer>
+			
+
+	</body>
+</html>
